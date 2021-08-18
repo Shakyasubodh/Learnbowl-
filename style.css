@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+  
+    font-weight: normal;
+    font-style: normal;
+    background-color: skyblue;
+}
+ 
+nav{
+    /* background-color: red !important; */
+    width: 100%;
+    background-color: #fff;
+} 
+
+.flex-container{
+    padding: 25px;
+    display: flex;
+}
+
+.menu{
+    margin-top: 15px;
+    width: 950px;
+}
+ 
+.menu a{
+    color: black;
+    padding: 54px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    
+}
+.menu a:hover{
+    background:#2d3092;
+    transition: 0.4;    
+}
+
+.logo{
+    padding-left: 25px;
+    position: relative;
+}
+
+.logo img{
+    margin-right: 55px;
+}
+.container{
+    
+    height: 85%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.text img{
+    margin-top: 85px;
+    height: 400px;
+    width: 700px;
+    margin-right: 85px;
+}
+
+
+.text{
+    margin-top: 100px;
+
+}
+
+.text h3{
+  color: #2d3092;
+  font-size: 20px;  
+}
+.text h1{
+
+    font-size: 60px;
+    color:  black;
+}
+.text h2{
+    font-size: 25px;
+}
+.validation_form{
+    background-color: #fff;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'open sans',sans-serif;
+}
+.header{
+    background-color:darkolivegreen ;
+    padding: 20px 40px;
+    text-align: center;
+    border-bottom: 2px solid grey;
+}
+.header h2{
+    margin: 0;
+}
+ .form{
+     padding: 30px 40px;
+ }
+ .form-control{
+     margin-bottom: 30px;
+     padding-bottom: 20px;
+     position: relative;
+ }
+.form-control label{
+    display: inline-block;
+    margin-bottom: 3px;
+
+}
+.form-control input{
+    border: 2px solid skyblue;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-size: 14px;
+    font-size: inherit;
+
+}
+.form-control.success input{
+    border-color: #2ecc71;
+}
+.form-control.error input{
+    border-color: #e74c3c;
+
+}
+.form-control i{
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    visibility: hidden;
+}
+.form-control.success i.fa-check-circle{
+    visibility: visible;
+    color: #2ecc71;
+}
+
+.form-control.error i.fa-exclamation-circle{
+    visibility: visible;
+    color: #e74c3c;
+}
+.form-control small{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+.form-control.error small{
+    visibility: visible;
+    color:#e74c3c ;
+}
+.form button{
+    background-color: skyblue;
+    border: solid skyblue;
+    color: #fff;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-family: inherit;
+    border-radius: 4px;
+}
+footer{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: Bold;
+}
+ 
+ 
+
+
+
+
+
+
+
+
+
+

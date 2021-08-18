@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnBowl Form Validation </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="index.js"></script>
+
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <div class="flex-container">
+                <div class="logo">
+                    <img src="./IMAGE/logo.png" alt="">
+                </div>
+                <div class="menu">
+                    <a href="#">French</a>
+                    <a href="#">Vedic Maths</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Courses</a>
+                    <a href="#">Contact Us</a>
+                </div>
+                
+            </div>
+           
+           </nav>
+
+
+        <div class="container">
+
+            <div class="text">
+             <h3>Learn French online from india's best teachers </h3>
+             <h1>The heaven for holistic <br> learning</h1>
+             <br> 
+             <h2>Learn French online : Register For Workshop </h2>
+
+
+                <img src="./IMAGE/BG.png" alt="">
+                 
+
+            </div>
+
+
+
+            <div class="validation_form">
+                <div class="header">
+                    <h2>REGISTRATION FORM</h2>
+
+                </div>
+                           
+    <form class="form" id="form ">
+        <div class="form-control ">
+            <lable>Username</lable>
+            <input type="text" placeholder="Enter your name" id="username">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+
+        </div>
+         
+        <div class="form-control ">
+            <lable>Email</lable>
+            <input type="text" placeholder="Enter your Email" id="email">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+            
+        </div>
+        <div class="form-control">
+            <lable>Password</lable>
+              <input type="password" placeholder="Enter your password" id="password">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+            
+        </div>
+
+        <div class="form-control">
+            <lable>Password-check</lable>
+            <input type="password" placeholder="Enter password again" id="check-password">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+            
+        </div>
+        <button onclick="checkInputs();">Submit</button>
+    </form>
+             
+            </div>
+    </header>
+    <footer>Design by Subodh Kumar </footer>
+</body>
+
+</html>
